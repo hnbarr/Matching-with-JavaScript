@@ -3,20 +3,141 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Checkpoint 3</title>
+    <title>Match'em All</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
 </head>
 <body>
-    <div class = container>
-        <header>
-            <h1> Matching Game </h1>
-        </header>
+    <header>
+        <h1> Match'em All </h1>
+    </header>
+
+    <section class="board">
+
+        <div class="card" data-name="edd">
+            <img class="front-face" src="img/edd.png" alt="edd" />
+            <div class="back-face" alt="eddBadge"></div> 
+        </div>
+        <div class="card" data-name="edd">
+            <img class="front-face" src="img/edd.png" alt="edd" />
+            <div class="back-face" alt="eddBadge"></div>
+        </div>
+            
+
+        <div class="card" data-name="nazz">
+            <img class="front-face" src="img/nazz.png" alt="nazz" />
+            <div class="back-face" alt="nazzBadge"></div>
+        </div>
+        <div class="card" data-name="nazz">
+            <img class="front-face" src="img/nazz.png" alt="nazz" />
+            <div class="back-face" alt="nazzBadge"></div>
+        </div>
+
+            
+        <div class="card" data-name="plank">
+            <img class="front-face" src="img/plank.png" alt="plank" />
+            <div class="back-face" alt="plankBadge"></div>
+        </div>
+        <div class="card" data-name="plank">
+            <img class="front-face" src="img/plank.png" alt="plank" />
+            <div class="back-face" alt="plankBadge"></div>
+        </div>
+
+            
+        <div class="card" data-name="eddy">
+            <img class="front-face" src="img/eddy.png" alt="eddy" />
+            <div class="back-face" alt="eddyBadge"></div>
+        </div>
+        <div class="card" data-name="eddy">
+            <img class="front-face" src="img/eddy.png" alt="eddy" />
+            <div class="back-face" alt="eddyBadge"></div>
+        </div>
+            
+
+        <div class="card" data-name="jimmy">
+            <img class="front-face" src="img/jimmy.gif" alt="jimmy" />
+            <div class="back-face" alt="jimmyBadge"></div>
+        </div>
+        <div class="card" data-name="jimmy">
+            <img class="front-face" src="img/jimmy.gif" alt="jimmy" />
+            <div class="back-face" alt="jimmyBadge"></div>
+        </div>
+            
+
+        <div class="card" data-name="marie">
+            <img class="front-face" src="img/marie.png" alt="marie" />
+            <div class="back-face" alt="marieBadge"></div>
+        </div>
+        <div class="card" data-name="marie">
+            <img class="front-face" src="img/marie.png" alt="marie" />
+            <div class="back-face" alt="marieBadge"></div>
+        </div>
 
 
-    </div>
+        <div class="card" data-name="may">
+            <img class="front-face" src="img/may.png" alt="may" />
+            <div class="back-face" alt="mayBadge"></div>
+        </div>
+        <div class="card" data-name="may">
+            <img class="front-face" src="img/may.png" alt="may" />
+            <div class="back-face" alt="mayBadge"></div>
+        </div>
 
-    <script src="script.js"></script>
+
+        <div class="card" data-name="ed">
+            <img class="front-face" src="img/ed.png" alt="ed" />
+            <div class="back-face" alt="edBadge"></div>
+        </div>
+        <div class="card" data-name="ed">
+            <img class="front-face" src="img/ed.png" alt="ed" />
+            <div class="back-face" alt="edBadge"></div>
+        </div>
+
+
+        <div class="card" data-name="rolf">
+            <img class="front-face" src="img/rolf.png" alt="rolf" />
+            <div class="back-face" alt="rolfBadge"></div>
+        </div>
+        <div class="card" data-name="rolf">
+            <img class="front-face" src="img/rolf.png" alt="rolf" />
+            <div class="back-face" alt="rolfBadge"></div>
+        </div>
+
+        </section>
+        <br><br>
+        <audio controls>
+            <source src="./audio/ed__edd_n_eddy.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- <section class = stat-panel>
+                <span class = timer>
+                    <p> stopwatch here </p>
+                </span>
+    
+                <span class = moves>
+                    <p> # of moves here </p>
+                </span>
+    
+                <span class = restart>
+                    <p>restart button here </p>
+                </span>
+        </section>  -->
+
+        <!-- <section class="overlay" id="mainpopup">
+            <div class="popup">
+                <div class="content-1">
+                    Congratulations you're a winner 🎉🎉
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                </div>
+                <button id="play-again">Play again!</a></button>
+            </div>
+        </section> -->
+
+    <script src="./script.js"></script>
 </body>
 </html>
