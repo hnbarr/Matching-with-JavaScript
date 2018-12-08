@@ -4,7 +4,7 @@ const cards = document.querySelectorAll('.card');
 
 let hasFlippedCard = false;
 let firstCard, secondCard;
-let stopPlay = false;
+let stopPlay = false;          
 
 function flipCard() {
 // first click
@@ -37,7 +37,7 @@ function checkMatch(){
         resetBoard();
         }, 1500);
     }
-  }
+}
 
 function resetBoard() {
     [hasFlippedCard, stopPlay] = [false, false];
